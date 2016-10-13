@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>复制链接</title>
+</head>
+<body>
+
+名: <input type="text" id="myText" value="Mickey">
+<p>点击按钮显示生成的链接,例如http://www.qq.com。</p>
+<button onclick="myFunction()">点我</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("demo").innerHTML = "<a href="+x+">"+x+"</a><p></p><p>生成链接后选中链接文字右键复制吧</p>";
+}
+</script>
+
+</body>
+</html>
