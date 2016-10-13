@@ -1,1 +1,2 @@
-# glink\nhelp girls copy link to mail
+# glink
+	help lovely girls copy link to mail
